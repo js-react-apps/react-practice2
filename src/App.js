@@ -6,7 +6,7 @@ function App() {
       <h1> Hello React</h1>
       <p>my first React app</p>
       <hr />
-      <Employee />
+      <Employee name="Arzun Reddy" />
     </div>
   );
 }

@@ -4,7 +4,7 @@ class Employee extends Component {
   render() {
     return (
       <div>
-        Hello xxxxxxxx
+        Hello {this.props.name}
         <p>Welcome onboard!!</p>
       </div>
     );
