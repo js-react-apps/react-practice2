@@ -1,0 +1,19 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+.Button {
+    background-color: rgb(234, 237, 241);
+    color: #000;
+    border: solid 3px rgb(70, 14, 14);
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    
+    border-radius: 10px;
+}
+
+.Button:hover {
+    background-color: rgb(235, 161, 50);
+    color: #FFFFFF;
+    font-size: 30px;
+}

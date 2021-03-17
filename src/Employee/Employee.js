@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Employee.css";
 
 export default class Employee extends Component {
   constructor() {
@@ -19,11 +20,12 @@ export default class Employee extends Component {
 
   render() {
     return (
-      <div>
+      <div className="EmployeeWidget">
+        <h2>Employee component</h2>
         Hello {this.props.name}
         <p>Welcome onboard!!</p>
-        <hr />
-        <button onClick={this.switchContext}>Submit</button>
+        <br />
+        <button className="Button" onClick={this.switchContext}>Switch status</button>
         <p>Status - {this.state.status}</p>
       </div>
     );
